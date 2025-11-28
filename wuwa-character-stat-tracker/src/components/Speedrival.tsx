@@ -1,19 +1,11 @@
 import { SpeedrivalData } from "../data/SpeedrivalData"
-import { CharacterSelector } from "./CharacterSelector"
+import { Profile } from "./Profile"
 
 export const Speedrival = () => {
     return (
         <div className="flex flex-col items-center">
-            <h1 className="font-bold text-4xl">Speedrival</h1>
-            <div className="bg-[url(/public/full-art/chixia.webp)] bg-cover h-130 w-100">
-                <p>Attack: </p>
-            </div>
-            <div className="flex">
-                {SpeedrivalData.map((data) => (
-                <CharacterSelector Characters={data}/>
-            ))}
-            </div>
-    
+            <h1 className="font-bold text-4xl text-white bg-black w-full text-center">Speedrival</h1>
+            <Profile Data={SpeedrivalData}/>       
         </div>
     )
 }

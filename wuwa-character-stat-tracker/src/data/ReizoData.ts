@@ -3,24 +3,15 @@ import type { CharacterData } from "../types/CharacterData";
 export const ReizoData: CharacterData[] = [
     {
         img: "/phrolova.webp",
-        attack: 1200,
-        def: 400,
-        hp: 13000,
-        energyRegen: 130.2,
-        critDmg: 240.2,
-        critRate: 67.2,
+        fullArt:"/full-art/phrolova.webp",
+        attack: 2051,
+        def: 1373,
+        hp: 18223,
+        energyRegen: 119.2,
+        critDmg: 189,
+        critRate: 80.5,
         attribute: "Havoc",
         obtained: true,     
     },
-    {
-        img: "/quiyuan.webp",
-        attack: 1200,
-        def: 400,
-        hp: 13000,
-        energyRegen: 130.2,
-        critDmg: 240.2,
-        critRate: 67.2,
-        attribute: "Electro", 
-        obtained: false,    
-    }
+
 ]

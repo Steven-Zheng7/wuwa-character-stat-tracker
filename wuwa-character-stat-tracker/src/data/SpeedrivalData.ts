@@ -2,25 +2,15 @@ import type { CharacterData } from "../types/CharacterData";
 
 export const SpeedrivalData: CharacterData[] = [
     {
-        img: "/phrolova.webp",
-        attack: 1200,
-        def: 400,
-        hp: 13000,
-        energyRegen: 130.2,
-        critDmg: 240.2,
-        critRate: 67.2,
-        attribute: "Havoc",
+        img: "/cartethyia.webp",
+        fullArt: "/full-art/cartethyia.webp",
+        attack: 1161,
+        def: 761,
+        hp: 51546,
+        energyRegen: 110.8,
+        critDmg: 275,
+        critRate: 76.7,
+        attribute: "Aero",
         obtained: true,     
-    },
-    {
-        img: "/quiyuan.webp",
-        attack: 1200,
-        def: 400,
-        hp: 13000,
-        energyRegen: 130.2,
-        critDmg: 240.2,
-        critRate: 67.2,
-        attribute: "Electro", 
-        obtained: true,    
     }
 ]
