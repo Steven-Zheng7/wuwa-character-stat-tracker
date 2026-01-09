@@ -1,6 +1,5 @@
 
 import { ReizoData } from "../data/ReizoData"
-import { CharacterSelector } from "./CharacterSelector"
 import { Profile } from "./Profile"
 
 export const Reizo = () => {

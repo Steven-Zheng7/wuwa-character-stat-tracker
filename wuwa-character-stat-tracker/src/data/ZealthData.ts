@@ -15,7 +15,7 @@ export const ZealthData: CharacterData[] = [
     },
     {
         img: "/changli.webp",
-        fullArt: "/full-art/cartethyia.webp",
+        fullArt: "/full-art/chixia.webp",
         attack: 2238,
         def: 1149,
         hp: 16269,
