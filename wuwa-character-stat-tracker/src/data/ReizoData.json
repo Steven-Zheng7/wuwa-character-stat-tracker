@@ -9,6 +9,7 @@
         "critDmg": 189,
         "critRate": 80.5,
         "attribute": "Fusion",
+        "sequence": 0,
         "obtained": true    
     }
 
