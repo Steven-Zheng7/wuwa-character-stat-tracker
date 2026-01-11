@@ -1,6 +1,7 @@
 import type { CharacterData } from "../types/CharacterData";
 import { CharacterSelector } from "./CharacterSelector"
 import { useState } from "react";
+import { placeHolder } from "../data/Placeholder";
 
 interface PlayerDataProp {
     Data: CharacterData[];
@@ -8,7 +9,7 @@ interface PlayerDataProp {
 
 
 export const Profile = ({Data}: PlayerDataProp) => {
-    const [selected, setSelected] = useState(Data[0]);
+    const [selected, setSelected] = useState(placeHolder[0]);
     return (
         <div className="flex flex-col items-center">
             <div className=" bg-cover h-130 w-100 overflow-hidden " style={{backgroundImage: `url(${selected.fullArt})`}}>
@@ -22,8 +23,11 @@ export const Profile = ({Data}: PlayerDataProp) => {
                     <p>ER:  {selected.energyRegen}%</p>
                     <p>CRT: {selected.critRate}%</p>
                     <p>CDMG: {selected.critDmg}%</p>
+                    <p>SET EFFECT: {selected.echoes}</p>
+                    <p>SEQUENCE: {selected.sequence}</p>
+                    <p>ATTRIBUTE: {selected.attribute}</p>
             </div>
-            <div className="flex">
+            <div className="grid grid-cols-6 gap-2 bg-gray-900">
                 {Data.map((data) => (
                 <CharacterSelector 
                 key={data.img} 

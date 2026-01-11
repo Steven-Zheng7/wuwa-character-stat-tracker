@@ -8,5 +8,7 @@ export interface CharacterData {
   critRate: number;
   critDmg: number;
   attribute: string;
+  sequence: number;
+  echoes: string;
   obtained: boolean;
 }

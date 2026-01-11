@@ -1,0 +1,16 @@
+[
+    {
+        "img": "/aalto.webp",
+        "fullArt":"/full-art/quiyuan.webp",
+        "attack": 2051,
+        "def": 1373,
+        "hp": 18223,
+        "energyRegen": 119.2,
+        "critDmg": 189,
+        "critRate": 80.5,
+        "attribute": "Fusion",
+        "sequence": 0,
+        "obtained": true    
+    }
+
+]
