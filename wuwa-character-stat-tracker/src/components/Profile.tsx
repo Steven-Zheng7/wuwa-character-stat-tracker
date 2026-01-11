@@ -27,7 +27,7 @@ export const Profile = ({Data}: PlayerDataProp) => {
                     <p>SEQUENCE: {selected.sequence}</p>
                     <p>ATTRIBUTE: {selected.attribute}</p>
             </div>
-            <div className="grid grid-cols-6 gap-2 bg-gray-900">
+            <div className="grid grid-cols-6 gap-2 bg-black">
                 {Data.map((data) => (
                 <CharacterSelector 
                 key={data.img} 

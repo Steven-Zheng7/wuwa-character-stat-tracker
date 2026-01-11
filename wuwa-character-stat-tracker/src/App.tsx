@@ -8,7 +8,7 @@ import { Zealth } from './components/Zealth'
 function App() {
 
   return (
-    <div className="flex flex-wrap justify-center gap-10">
+    <div className="flex flex-wrap justify-center gap-20 *:outline-5">
       <Zealth/>
       <Reizo/>
       <Speedrival/>
